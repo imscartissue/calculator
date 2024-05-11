@@ -31,6 +31,10 @@ body {
     margin-left: 20px;
     margin-right: 20px;
     font-size: 80px;
+    width: 550px; /* Adjust this to the desired width of your div */
+    overflow: hidden; /* This prevents text from overflowing */
+    white-space: nowrap; /* This prevents line breaks */
+    text-overflow: ellipsis; /* This adds an ellipsis (...) when the text overflows */
 }
 
 .button-container-1, .button-container-2, .button-container-3, .button-container-4, .button-container-5 {
